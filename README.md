@@ -29,4 +29,4 @@ augmented_img = augmentor.augment_HE(img)
 
 #### Examples
 
-For more examples see notebook [here]()
+For more examples see notebook [here](https://github.com/estorrs/stainaug/blob/master/examples/example.ipynb)

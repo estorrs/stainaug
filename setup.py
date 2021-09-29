@@ -12,7 +12,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     # $ pip install stainaug
     name='stainaug',
-    version='0.0.1',
+    version='0.0.2',
     description='A tool for H&E image augmentation',
     long_description=long_description,
     long_description_content_type='text/markdown',

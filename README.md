@@ -1,4 +1,6 @@
-A python API for H&E stain normalization that is a simple wrapper for image normalization implemented by [DIAGNijmegen](https://github.com/DIAGNijmegen/pathology-he-auto-augment), which implemented deconvolution based methods from [Faryna et al.](https://2021.midl.io/proceedings/faryna21.pdf) and [Tellez et al.](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10581/2293048/HE-stain-augmentation-improves-generalization-of-convolutional-networks-for-histopathological/10.1117/12.2293048.full?SSO=1).
+![example augmentation](https://github.com/estorrs/stainaug/blob/master/images/example.png)
+
+A lightweight wrapper for image normalization implemented by [DIAGNijmegen](https://github.com/DIAGNijmegen/pathology-he-auto-augment), which used deconvolution based methods from [Faryna et al.](https://2021.midl.io/proceedings/faryna21.pdf) and [Tellez et al.](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10581/2293048/HE-stain-augmentation-improves-generalization-of-convolutional-networks-for-histopathological/10.1117/12.2293048.full?SSO=1).
 
 #### Installation
 

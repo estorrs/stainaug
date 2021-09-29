@@ -10,7 +10,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    # $ pip install violet
+    # $ pip install stainaug
     name='stainaug',
     version='0.0.1',
     description='A tool for H&E image augmentation',
@@ -30,6 +30,11 @@ setup(
     packages=find_packages(),
     python_requires='>=3.6',
     install_requires=[
+        'matplotlib',
+        'numpy',
+        'Pillow',
+        'scikit-image',
+        'scipy'
         ],
     include_package_data=True,
 )

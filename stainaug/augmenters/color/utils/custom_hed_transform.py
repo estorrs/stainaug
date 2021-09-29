@@ -1,4 +1,6 @@
-
+"""
+Copy-Paste from https://github.com/DIAGNijmegen/pathology-he-auto-augment/he-randaugment/augmenters/color/utils/custom_hed_transform.py
+"""
 import numpy as np
 from scipy import linalg
 from skimage.util import dtype, dtype_limits

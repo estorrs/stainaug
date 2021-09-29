@@ -1,5 +1,7 @@
 """
 This file contains base class for augmenting patches from whole slide images.
+
+Copy-Paste from https://github.com/DIAGNijmegen/pathology-he-auto-augment/he-randaugment/augmenters/augmenterbase.py
 """
 
 #----------------------------------------------------------------------------------------------------

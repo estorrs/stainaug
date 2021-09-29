@@ -1,8 +1,9 @@
 """
 This file contains a class for augmenting patches from whole slide images by applying color correction in HED color space.
+
+Modified from https://github.com/DIAGNijmegen/pathology-he-auto-augment/he-randaugment/augmenters/color/hedcoloraugmenter.py
 """
 from stainaug.augmenters.color.utils.custom_hed_transform import rgb2hed, hed2rgb
-## from . import coloraugmenterbase as dptcoloraugmenterbase
 from stainaug.augmenters.color.coloraugmenterbase import ColorAugmenterBase
 
 import numpy as np

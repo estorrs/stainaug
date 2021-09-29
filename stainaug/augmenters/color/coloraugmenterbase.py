@@ -1,8 +1,9 @@
 """
 This file contains base class for augmenting patches from whole slide images with color transformations.
+
+Modified from https://github.com/DIAGNijmegen/pathology-he-auto-augment/he-randaugment/augmenters/color/coloraugmenterbase.py
 """
 
-## from .. import augmenterbase as dptaugmenterbase
 from stainaug.augmenters.augmenterbase import AugmenterBase
 
 #----------------------------------------------------------------------------------------------------

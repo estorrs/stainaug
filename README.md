@@ -14,7 +14,7 @@ pip install stainaug
 import PIL.Image as Image
 import numpy as np
 
-from stainaug.augment import Augmentor
+from stainaug import Augmentor
 
 # read in image
 image_filepath = </path/to/image.jpeg>
